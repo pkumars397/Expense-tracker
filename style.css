@@ -1,0 +1,50 @@
+* {
+  font-size: 18px;
+}
+
+body {
+  box-sizing: border-box;
+  background-image: url(https://images.pexels.com/photos/4386339/pexels-photo-4386339.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: fixed;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  background-color: #1ba432a2;
+  color: #3e0202;
+}
+
+.submitBtn {
+  display: flex;
+  justify-content: center;
+}
+
+ul {
+  color: #282525;
+  border: 2px solid rgb(17, 151, 169);
+  background: rgba(24, 205, 42, 0.753);
+  border-radius: 12px;
+}
+.items {
+  padding: 15px;
+}
+
+.delbtn {
+  margin: 0 5px;
+}
+
+.delbtn,
+.editbtn {
+  border-radius: 10px;
+  background-color: #b7d31c;
+}
